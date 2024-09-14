@@ -1,0 +1,256 @@
+html{
+    background-color: rgb(14, 14, 14);
+    color: white;
+}
+
+nav, #hero, #section2 {
+
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(20, 3, 3);
+}
+
+#nav1>a{
+    text-decoration: none;
+    color: white;
+  
+}
+#nav1 ,a{
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+a{
+    margin-right: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color:  rgb(0, 106, 187);
+}
+    
+
+#ad{
+    text-align: center;
+}
+h6{
+        font-family: 'Times New Roman', Times, serif;
+        color: white
+}
+
+#img1{
+
+    width: 50vw;
+    height: 60vh;
+
+}
+hr{
+    color: transparent;
+}
+
+#hero, #section2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.vs_button{
+    padding: 5px;
+    background-color: rgb(0, 120, 212);
+    color: white;
+    border-radius: 5px;
+
+}
+
+.vs_button:hover{
+    background-color: rgb(0, 106, 187);
+    cursor: pointer;
+}
+.langs
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.right_section2{
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    width: 70vw; 
+    column-gap: 8px;
+    row-gap: 8px;
+   
+}
+
+.left{
+    width: 30vw;
+}
+
+.box{
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    margin: 5px 0; 
+    color: #9ba3b4;
+}
+
+#section7_right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.box{
+
+    border-radius: 1px;
+    padding: 2px;
+    align-items: center;
+
+}
+
+.box:hover{
+    border: 1px solid whitesmoke;
+}
+button{
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 4px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.left 
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 200%;
+    color: #9ba3b4;
+}
+p{
+    text-align: center;
+}
+.right_section2
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 200%;
+    color: #9ba3b4;
+    text-align: center;
+   
+
+}
+ #section3
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   
+}
+/* .left{
+    align-items: center;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+} */
+ #section4,#left
+ {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+ }
+ #img3{
+
+    width: 50vw;
+    height: 60vh;
+    align-items: right;
+
+}
+#j1
+{
+    vertical-align: middle;
+}
+#section5
+{
+    display: flex;
+    align-items: center; /* Vertically aligns content and image */
+    justify-content: space-between;
+}
+#section6
+{
+    display: flex;
+    align-items: center; /* Vertically aligns content and image */
+    justify-content: space-between;  
+}
+#section7
+{
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9ba3b4;
+}
+#nav3{
+    margin-right: 50px;
+    color: #9ba3b4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right:10px;
+}
+#nav4
+{
+    margin-right: 50px;
+    color: #9ba3b4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right:10px;
+
+}
+.right{
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9ba3b4;
+}
+h4{
+    align-items: center;
+    color: #9ba3b4;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+
+}
+#Hel
+{
+    align-items: center;
+}
+.left h1{
+    font-size: xX-large;
+    color: beige;
+}
+#nav2 input
+{
+   color: #9ba3b4; 
+   background-color: black;
+}
+#nav2 button{
+    background-color: black;
+}
+
+
+
+
